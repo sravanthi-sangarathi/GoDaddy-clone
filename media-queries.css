@@ -1,0 +1,66 @@
+@media screen and (max-width:991px){
+    .nav-toggle{
+        display: block;
+        margin-right:20px ;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: white;
+        left:-100%;
+        top: 100%;
+        width: 100%;
+        padding-block: 20px;
+    }
+    .nav-links.active{
+        
+    }
+    .main-nav{
+        overflow: initial;
+    }
+    .nav-links ul{
+        flex-direction: column;
+    }
+    .example-card{
+        width: calc(50% - 10px);
+        height: 180px;
+    }
+    .examples-area{
+        gap: 20px;
+    }
+    .cta-section{
+        padding-block: 80px;
+    }
+}
+@media screen and (max-width:767px) {
+    .primary-button{
+        width: 50vw;
+
+    }
+    .header-section{
+        flex-direction: column-reverse;
+    }
+    .header-left{
+        max-width: 100vw;
+        text-align: center;
+    }
+    .features-card {
+        min-width:40%
+    }
+    .big-feature-container,#sec-big-feature-section{
+        flex-direction: column;
+    }
+    .examples-header{
+        margin-block:50px ;
+    }
+    .footer-container{
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+        align-items: center;
+    }
+    .link-column{
+        align-items: stretch;
+    }
+   
+    
+}
